@@ -57,7 +57,7 @@ address {
    padding-bottom: 10px;
 }
 /* Section Styles */
-h1 < section.playbill {
+section.playbill h1{
    font-size: 3em;
    font-weight: normal;
    margin: 0px;
@@ -66,19 +66,19 @@ h1 < section.playbill {
    padding-left: 20px;
    padding-bottom: 10px;
 }
-h1#play1 {
+section#play1 {
    background-color:hsl(240,100%,88%);
    font-family: Champagne;
 }
-h1#play2 {
+section#play2 {
    background-color: hsl(25,88%,73%);
    font-family: Grunge, Times New Roman, Times, serif;
 }
-h1#play3 {
+section#play3 {
    background-color: hsl(0,100%,75%);
    font-family: Impact, Charcoal, sans-serif;
 }
-h1#play4 {
+section#play4 {
    background-color: hsl(296,86%,86%);
    font-family: Dobkin, cursive;
 }
@@ -87,13 +87,13 @@ nav {
    font-family: Trebuchet MS, Helvetica, sans-serif;
    padding-top: 10px;
 }
-nav > ul > li > a:link, nav > ul > li > a:visited {
+nav a:link, nav a:visited { 
    background-color: hsla(0,0%,42%,0.4);
    font-style: normal;
    color: white;
 }
 
-nav > ul > li > a:hover, nav > ul > li > a:active {
+nav a:hover, nav a:active {
    color: hsla(0,0%,100%,0.7);
    background-color:  hsla(0,0%,42%,0.7);
 }
