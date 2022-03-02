@@ -1,0 +1,63 @@
+﻿@@charset "utf-8";
+@font-face {
+   font-family: Champagne;
+   src: url('cac_champagne.woff') format('woff'),
+        url('cac_champagne.ttf') format('truetype');
+   font-family: Dobkin;
+   src: url('DobkinPlain.woff') format('woff'),
+        url('DobkinPlain.ttf') format('truetype');
+}/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author: Landon Darnell
+   Date:   3/2/22
+   
+   Filename: lake_styles.css
+
+*/
+
+/* Structural Style */
+img {
+   margin: 20px auto;
+   padding-top: 100px;
+}
+p::first-letter {
+   font-size: 20px
+}
+
+html {
+   background-color: #B5651D;
+   color: whitesmoke;
+}
+p {
+   font-family: Dobkin;
+}
+h1{
+   color: black;
+   background-color: white;
+   text-align: center;
+   font-family: Champagne;
+}
+footer {
+   background-color: rgba(0,0,0,.70);
+}
+li {
+   color: yellow;
+}
+li::marker {
+   color: black;
+}
+/* Section Styles */
+
+section#rightcol {
+   color: beige;
+   background-color: #654321;
+}
+
+section#leftcol {
+   color: black;
+   background-color: rgba(245,245,220,.5)
+}
