@@ -1,4 +1,4 @@
-﻿@@charset "utf-8";
+﻿@charset "utf-8";
 @font-face {
    font-family: Champagne;
    src: url('cac_champagne.woff') format('woff'),
@@ -25,7 +25,8 @@ img {
    padding-top: 100px;
 }
 p::first-letter {
-   font-size: 20px
+   font-size: 20px;
+   font-style: bold;
 }
 
 html {
@@ -33,13 +34,13 @@ html {
    color: whitesmoke;
 }
 p {
-   font-family: Dobkin;
+   font-family: Champagne;
 }
 h1{
    color: black;
    background-color: white;
    text-align: center;
-   font-family: Champagne;
+   font-family: Dobkin;
 }
 footer {
    background-color: rgba(0,0,0,.70);
