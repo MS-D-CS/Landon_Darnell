@@ -37,7 +37,7 @@ nav ul li{
     font-size: 18px;
     color: white;
     line-height: 36px;
-    width: 120px;
+    width: 90px;
     height: 36px;
     margin-right: 12px;
     background-color: #256670;
@@ -74,4 +74,7 @@ footer {
     height: 50px;
     color: #256670;
     margin-top: 10px;
+}
+img {
+    border-radius: 50px;
 }
