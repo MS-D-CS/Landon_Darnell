@@ -4,7 +4,7 @@
 
    ====================================== */
 
-   /* Facebook Button*/
+   /* Facebook Button 1*/
 
    .facebook-style-btn {
        border-radius: 2px;
@@ -31,6 +31,8 @@
         border-color: #1d4698;
     }
 
+   /* Facebook Button 2 */
+
     .facebook-style-light {
         background: #f6f7f9;
         border: solid 1px #ced0d4;
@@ -46,7 +48,7 @@
         border-color: #d8dade;
     }
 
-   /* 3D Buttons */
+   /* 3D Button 1 */
 
    .btn-3d-1 {
     position: relative;
@@ -111,13 +113,17 @@
         border-bottom-width: 0px;
         bottom: -3px;
       }
-      
-   /*Gradient Bordered Buttons */
+  
+   /* 3D Button 2 */
 
+   /*Gradient Bordered Button 1 */
 
+   /*Gradient Bordered Button 2 */
 
-   /* Animated Buttons */
+   /* Animated Button 1 */
 
+   /* Animated Button 2 */
 
+   /* Toggle Switch UI Button 1 */
 
-   /* Toggle Switch UI Buttons */
+   /* Toggle Switch UI Button 2 */
