@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    ]box-sizing: border-box;
+    box-sizing: border-box;
     font-family: sans-serif;
 }
 body {
@@ -10,12 +10,14 @@ body {
     min-width: 640px;
     width: 100%;
     background-color: bisque;
+    margin: auto;
 }
 main {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
     background-color: gray;
+    padding: 1%;
 }
 header{
     padding: 0px;
@@ -53,7 +55,7 @@ li a{
     color: black;
 }
 .post {
-    width: 98%;
+    width: 88%;
     border: 1px solid black;
     border-radius: 10px;
     padding: 24px;
