@@ -9,13 +9,23 @@ body {
     max-width: 960px;
     min-width: 640px;
     width: 100%;
+<<<<<<< HEAD
     background-color: #257bda;
+=======
+    background-color: bisque;
+    margin: auto;
+>>>>>>> 4a8aba8d3d731c028b2e7ab211a2a8b98c721c6a
 }
 main {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+<<<<<<< HEAD
     background-color: #008830;
+=======
+    background-color: gray;
+    padding: 1%;
+>>>>>>> 4a8aba8d3d731c028b2e7ab211a2a8b98c721c6a
 }
 header{
     padding: 0px;
@@ -53,7 +63,7 @@ li a{
     color: black;
 }
 .post {
-    width: 98%;
+    width: 88%;
     border: 1px solid black;
     border-radius: 10px;
     padding: 24px;
