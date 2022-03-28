@@ -16,7 +16,22 @@
 /* Body and HTML Styles */
 
 html {
-   background-image: url("br_paper.png");
+   background-color: gray;
 }
 
+body {
+   background-image: url("br_paper.png");
+}
 /* Images */
+
+img {
+   border-radius: 10px;
+   border: 10px solid;
+   border-image: radial-gradient(white,green,blue,);
+}
+
+.logo {
+   display: block;
+   position: center;
+   color: royalblue;
+}
