@@ -5,8 +5,8 @@
    Tutorial 5
    Tutorial Case
    
-   Author:   
-   Date:     
+   Author:   Landon Darnell
+   Date:     3/29/22
    
    Filename: tf_styles1.css
    
@@ -151,3 +151,19 @@ body > footer {
 /* New Styles Added Below */
 
 
+
+/* ======================
+|    Mobile Styles: 0px - 480px
+============================== */
+
+
+
+/* ======================
+|    Tablet Styles: 481px and greater
+============================== */
+
+
+
+/* ======================
+|    Desktop Styles: 769px and greater
+============================== */
