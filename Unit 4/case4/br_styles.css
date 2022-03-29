@@ -21,17 +21,42 @@ html {
 
 body {
    background-image: url("br_paper.png");
+   background-attachment: scroll;
 }
+
+p {
+   font-size: 30px;
+}
+
+/* Navigation and Lists */
+
+li {
+   display: inline;
+   font-size: 30px;
+}
+
+nav {
+   margin: 0 auto;
+   background-color: lightgrey;
+   box-shadow: rgb(51,51,51) 15px 0px 25px;
+   padding: 8px;
+   margin-bottom: 50px;
+   margin-top: 50px;
+}
+
 /* Images */
 
 img {
    border-radius: 10px;
    border: 10px solid;
    border-image: radial-gradient(white,green,blue,);
+   opacity: 80%
 }
 
-.logo {
+img#logo {
    display: block;
-   position: center;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
    color: royalblue;
 }
