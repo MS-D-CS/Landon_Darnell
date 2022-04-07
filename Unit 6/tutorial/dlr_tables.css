@@ -26,9 +26,25 @@ table.schedule {
 /* Table Cell Styles */
 table.schedule th, table.schedule td {
    border: 1px solid gray;
+   padding: 5px;
+   vertical-align: top;
 }
 
+table {
+   table-layout: fixed;
+}
 
+th, td {
+   word-wrap: break-word;
+}
+
+table.schedule thead tr {
+   height: 30px;
+}
+
+table.schedule tbody tr {
+   height: 40px;
+}
 /* Table Caption Styles */
 table.scheudle caption {
    caption-side: bottom;
@@ -47,4 +63,20 @@ table.schedule tfoot {
 }
 
 /* Column Group Styles */
+col#firstCol {
+   background: rgb(218, 210, 218);
+   width: 16%;
+}
 
+col.dayCols {
+   background: rgb(255, 220, 255);
+   width: 12%;
+}
+
+tr:nth-of-type(odd) {
+   background: yellow;
+}
+
+tr:nth-of-type(even) {
+   background: gray;
+}
